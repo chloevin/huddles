@@ -1,0 +1,298 @@
+* {
+    margin:0;
+    bow box-sizing: border-box;
+    line-height:100%;
+}
+
+html {
+    background-image: url(Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: left;
+}
+
+#logo {
+    margin-top: 6.7vh;
+    margin-left: 8.35vh;
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 33.40vh;
+    height: 5.312vh;
+
+}
+
+#conteneur {
+    display:flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    border: 0px solid black;
+
+}
+
+#image {
+    display:flex;
+    justify-content: space-around;
+    border: 0px solid black;
+    width: 72.42vh;
+    height: 62.43vh;
+    margin-left: 14.57vh;
+    
+}
+
+#para {
+    width: 67.64vh;
+    height: 41.62vh;
+    border: 0px solid black;
+    margin:auto;
+    margin-left: 20.81vh;
+    margin-top: 2.08vh;
+
+}
+#title {
+
+    font-size: 5.41vh;
+    font-family: "poppins";
+    font-weight: bold;
+    color:#FFFFFF;
+    line-height: 7.28vh;
+}
+
+#text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.71vh;
+    line-height: 3.64vh;
+    color: #FFFFFF;
+    margin-top:2.5vh ;
+   
+
+}
+
+.button {
+    width: 26.01vh;
+    height: 6.7vh;
+    font-size: 2.71vh;
+    cursor: pointer;
+    border-radius: 2.9vh;
+    font-family: "poppins";
+    font-weight: bold;
+    color: #503987;
+    box-shadow: 3px 6px #503987;
+    border:none;
+    margin-top: 4.16vh;
+}
+
+.button:hover {
+    background-color:#E880E8 ;
+}
+
+
+.fb {
+    background: url(fb.png);
+    width: 4.16vh;
+    height: 4.16vh;
+    cursor:pointer;
+    border-radius: 50%;
+}
+
+.fb:hover {
+    background-image: url(fb1.png);
+}
+
+.twitter {
+    background: url(twitter.png);
+    width: 4.16vh;
+    height: 4.16vh;
+    cursor:pointer;
+    border-radius: 50%;
+}
+
+.twitter:hover {
+    background-image: url(twitter1.png);
+}
+
+.insta {
+    background: url(insta.png) ;
+    width: 4.16vh;
+    height: 4.16vh;
+    cursor:pointer;
+    border-radius: 50%;
+}
+
+.insta:hover {
+    background-image: url(insta1.png);
+}
+
+#reseau {
+    display: flex;
+    justify-content: space-around;
+    width: 17.7vh;
+    margin-top: 20.81vh;
+    margin-left: 52.03vh;
+}
+
+@media (max-width:800px) {
+    * {
+        margin:0;
+        bow box-sizing: border-box;
+        line-height:100%;
+        flex-direction: column;
+
+    }
+    
+    html {
+        background-image: url(Mobile.jpg);
+        background-repeat: no-repeat;
+        background-size:200vh 100vh;
+    }
+    
+    
+    
+    body {
+        display: grid;
+        place-items: left;
+        height: 100%;
+    }
+    
+    #logo {
+        margin-top: 50px;
+        margin-left: 60px;
+        background-image: url(logo.png);
+        background-size: cover;
+        width: 170px;
+        height: 27px;
+    
+    }
+    
+    #conteneur {
+        display:block;
+        margin: auto;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+        border: 0px solid black;
+        margin-left: -80px;
+        margin-top: -80px;
+    
+    }
+    
+    #image {
+        display:flex;
+        border: 0px solid black;
+        width: 400px;
+        height: 20px;
+        
+        
+    }
+    
+    #para {
+        width: 300px;
+        height: 150px;
+        border: 0px solid black;
+        margin:auto;
+        margin-top: 180px;
+        margin-left: 180px;
+        
+
+    
+    }
+    #title {
+    
+        font-size: 25px;
+        font-family: "poppins";
+        font-weight: bold;
+        color:#FFFFFF;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    #text {
+        font-family: 'Open Sans';
+        font-style:normal;
+        text-align: center;
+        font-size: 18.5px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top:24px ;
+       
+    
+    }
+    
+    .button {
+        width: 86px;
+        height: 24px;
+        font-size: 19px;
+        cursor: pointer;
+        border-radius: 28px;
+        font-family: poppins;
+        font-weight: bold;
+        color: rgb(80, 57, 135);
+        box-shadow: rgb(80 57 135) 3px 6px;
+        border: none;
+        margin-top: 39px;
+        margin-left: 113px;
+        
+        
+    }
+    
+    .button:hover {
+        background-color:#E880E8 ;
+    }
+    
+    
+    .fb {
+        background: url(fb.png);
+        width: 40px;
+        height: 40px;
+        cursor:pointer;
+        border-radius: 50%;
+    }
+    
+    .fb:hover {
+        background-image: url(fb1.png);
+    }
+    
+    .twitter {
+        background: url(twitter.png);
+        width: 40px;
+        height: 40px;
+        cursor:pointer;
+        border-radius: 50%;
+    }
+    
+    .twitter:hover {
+        background-image: url(twitter1.png);
+    }
+    
+    .insta {
+        background: url(insta.png) ;
+        width: 40px;
+        height: 40px;
+        cursor:pointer;
+        border-radius: 50%;
+    }
+    
+    .insta:hover {
+        background-image: url(insta1.png);
+    }
+    
+    #reseau {
+        display:flex;
+        justify-content:space-between;
+        width: 150px;
+        margin-top: 50px;
+        margin-left: 80px;
+        flex-direction:unset;
+    }
+}
